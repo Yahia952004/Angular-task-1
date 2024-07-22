@@ -1,0 +1,13 @@
+.app-technologies ul {
+    list-style-type: none;
+  }
+  
+  .app-technologies li::before {
+    content: "•";
+    color: #17a2b8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
